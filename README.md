@@ -4,6 +4,8 @@ OUI can be resolved from a database maintained by the IEEE [here](http://standar
 
 `caprecent.py` takes iptables log lines redirected from standard input.
 
+`parsenft.py` enrich nftable output with OUI manufacturer names
+
 `update-oui-cache.py` needs to be run once, to save the IEEE OUI mapping in a sqllite database stored in ~/.oui-cache. It's using about 2 mega bytes of disk space.
 
 Example iptables syslog entry:
